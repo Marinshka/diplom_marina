@@ -1,0 +1,57 @@
+@import "../utils/parameters";
+@import "../utils/mixins";
+.second-section {
+    .container {
+        padding-top: 20rem;
+    }
+    &__content {}
+
+    &__complogo {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 5rem;
+    }
+
+    &__provide {
+        display: flex;
+        justify-content: space-between;
+        &__picture {}
+        &__picture2 {}   
+        
+        &_description {
+           
+            
+            &__desk {
+
+            }
+            
+        }
+    }
+
+}
+h1 {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 148%;
+    letter-spacing: 0.8px;
+    color: #323232;
+    margin: 5rem 0;
+}
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 169%;
+    letter-spacing: 1.15px;
+    color: #323232;
+    margin-bottom: 3rem;
+}
+.link-section {
+    background-color: #F78434;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 29px;
+    padding: 1rem 2rem;
+
+
+    color: #FFFFFF;
+}
